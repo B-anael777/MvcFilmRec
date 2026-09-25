@@ -1,0 +1,24 @@
+@model List<MvcFilms.Models.Film>
+
+<h1>Films sortis après @ViewData["Annee"]</h1>
+
+@if (!Model.Any())
+{
+    <p>Aucun film trouvé pour cette période.</p>
+}
+else
+{
+    <ul>
+    @foreach (var film in Model)
+    {
+        <li>
+            @film.Titre — @film.Realisateur — @film.Annee
+            | <a asp-action="Details" asp-route-id="@film.Id">Détails</a>
+        </li>
+    }
+    </ul>
+}
+
+<p>
+    <a asp-action="Index">Retour à la liste complète</a>
+</p>

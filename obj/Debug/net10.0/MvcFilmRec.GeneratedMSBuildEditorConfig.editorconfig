@@ -23,6 +23,10 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/BLEURVACQ/MvcFilmRec/Views/Apres.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXByZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/BLEURVACQ/MvcFilmRec/Views/Films/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
